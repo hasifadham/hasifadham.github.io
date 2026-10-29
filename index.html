@@ -1,31 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My SCST1133 E-Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hasif Adham | e-Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>Your Name</h1>
-    <p>SCST1133 Data Engineering Ecosystem</p>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#work">Selected Work</a>
-      <a href="#reflection">Reflection</a>
-    </nav>
-  </header>
 
-  <main>
-    <section id="about">
-      <h2>Professional Profile</h2>
-      <p>Write a short professional introduction here.</p>
+    <!-- Header Navigation -->
+    <header>
+        <div class="logo">HASIF<span>.DE</span></div>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="hero-img">
+            <img src="profile.png" alt="Muhammad Hasif Adham">
+        </div>
+        <div class="hero-text">
+            <h3>Hello, I'm</h3>
+            <h1>Muhammad Hasif Adham</h1>
+            <h2>Data Engineering Student @ <span>UTM JB</span></h2>
+            <p>Aspiring Data Professional passionate about database architecture, C++ logic systems, IoT engineering, and data analytics.</p>
+            <div class="social-links">
+                <a href="https://github.com/hasifadham" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/hasif-adham-0b7021382/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="mailto:hasifadhammf@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
     </section>
 
-    <section id="work">
-      <h2>Selected Work</h2>
-      <article>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <h2 class="title">Tech & Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fas fa-code"></i> C++ / Arduino</div>
+            <div class="skill-card"><i class="fas fa-microchip"></i> IoT & ESP32</div>
+            <div class="skill-card"><i class="fas fa-file-excel"></i> Excel & Data Analysis</div>
+            <div class="skill-card"><i class="fas fa-tasks"></i> Project Management</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2 class="title">Featured Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <h3>C++ Academic System</h3>
+                <p>Academic grade processor & automated result slip generator built using C++.</p>
+                <div class="tags"><span>C++</span><span>Dev-C++</span></div>
+                <a href="https://github.com/asyeppp7/E-learning-Application" target="_blank" class="btn">View Project</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Smart IoT Irrigation</h3>
+                <p>Automated water level monitoring prototype with real-time Blynk IoT dashboard alerts.</p>
+                <div class="tags"><span>ESP32</span><span>Arduino</span><span>Blynk</span></div>
+                <a href="https://canva.link/h387to1im0kkn7u" target="_blank" class="btn">View Presentation</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Transport Tech Research</h3>
+                <p>Data study on commuter surveillance concerns and public transit technology adoption.</p>
+                <div class="tags"><span>MS Excel</span><span>MS Word</span></div>
+                <a href="https://1drv.ms/x/c/2670a84ce7effb0d/IQDoHDvA97FxR4vy_6F8SF5JAYZLbw2SEGdC2cU1SolR1RM?e=TABv1P" target="_blank" class="btn">View Analysis</a>
+            </div>
+
+            <div class="project-card">
+                <h3>UTM SCST1133 Tasks</h3>
+                <p>Coursework, industrial talk reflections, and ongoing assignments for semester 1.</p>
+                <div class="tags"><span>UTM</span><span>Coursework</span></div>
+                <a href="#contact" class="btn">In Progress</a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <h2 class="title">Education History</h2>
+        <div class="edu-box">
+            <div class="edu-item">
+                <h3>Universiti Teknologi Malaysia (UTM JB)</h3>
+                <p>Bachelor of Computer Science (Data Engineering) with Honours | Current</p>
+            </div>
+            <div class="edu-item">
+                <h3>Universiti Teknologi MARA (UiTM)</h3>
+                <p>Foundation in Engineering (Asasi Kejuruteraan) | CGPA: 4.00</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>© 2026 Muhammad Hasif Adham | Built with HTML & CSS for GitHub Pages</p>
+    </footer>
+
+</body>
+</html>
         <h3>Design Thinking and Figma</h3>
         <img src="images/project-screenshot.png"
              alt="Screenshot of my Figma prototype">
